@@ -215,5 +215,3 @@ kademlia_dht/
 ```
 
 ---
-
-This step-by-step plan ensures a methodical approach to building a Kademlia DHT in Rust using UDP. Let me know if you'd like help with any specific part of the implementation!
