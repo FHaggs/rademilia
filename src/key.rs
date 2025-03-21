@@ -2,7 +2,7 @@ use super::KEY_LEN;
 use sha2::{Digest, Sha256};
 use std::array::from_fn;
 
-#[derive(Clone, PartialEq, Eq, Hash, Debug)]
+#[derive(Clone, PartialEq, Eq, Hash, Debug, PartialOrd, Ord)]
 pub struct Key(pub [u8; KEY_LEN]);
 
 
